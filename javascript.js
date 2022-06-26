@@ -44,8 +44,7 @@ function toggle(){
             <h3>${inputfields["title"].value}</h3>
            </div>
            <div class="main">
-              
-                  
+           <div>
                  <h2>Contact details/Important social links</h2>
                  ${Contacts.getData()}
                  <h5>ADDRESS</h5>
