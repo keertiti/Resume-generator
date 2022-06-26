@@ -40,28 +40,30 @@ function toggle(){
          inputShow = false 
          output.innerHTML=`
            <div class="top">
-            <h1>${inputfields["Fname"].value}</h1>
+            <h3>${inputfields["Fname"].value}</h3>
             <h3>${inputfields["title"].value}</h3>
            </div>
            <div class="main">
            <div>
-                 <h2>Contact details/Important social links</h2>
+              
+                  
+                 <h3>Contact details</h3>
                  ${Contacts.getData()}
-                 <h5>ADDRESS</h5>
+                 <h3>ADDRESS</h3>
                  <p>${inputfields["address"].value}</p>
-                 <h2>OBJECTIVE</h2>
+                 <h3>OBJECTIVE</h3>
                  <p>${inputfields["objective"].value}</p>
                  
-                 <h2>SKILLS</h2>
+                 <h3>SKILLS</h3>
                  ${Skill.getData()}
-                 <h2>ACHIEVEMENTS</h2>
+                 <h3>ACHIEVEMENTS</h3>
                  ${Achievement.getData()}
                 
                </div>
                <div>
-                <h2>WORK EXPERIENCE AND PROJECT</h2>
+                <h3>WORK EXPERIENCE AND PROJECT</h3>
                 ${workExpdetails.getData()}
-                <h2>ACEMEDIC DETAILS</h2>
+                <h3>ACEMEDIC DETAILS</h3>
                  ${Academic.getData()}
                  
                 
