@@ -25,19 +25,21 @@ body{
     height: 50px;
     margin: 5px;
     
+    
 }
 
 input:focus,textarea:focus {
     
     outline: 2px;
     border:2px solid rgb(230, 14, 68);
+   
 
 }
 
 .top{
     background-color: rgb(234, 229, 229);
     text-align: center;
-    padding: 2px;
+    padding: 10px;
     
     color:rgb(226, 58, 58)
 }
@@ -47,16 +49,17 @@ input:focus,textarea:focus {
     justify-content: space-around;
     padding: 10px;
     background-color: rgb(248, 251, 252);
+    color: rgb(19, 18, 18);
 }
 
-.main h2{
-    border-bottom: 2px solid rgb(7, 7, 7);
+.main h3{
+    border-bottom: 2px solid rgb(15, 15, 15);
     width: max-content;
-    color:rgb(245, 35, 35)
+    color:rgb(169, 17, 17)
 }
 .btn{
     text-align: center;
-    margin: 50px;
+    margin: 20px;
 }
 
 
